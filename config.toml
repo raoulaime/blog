@@ -2,7 +2,7 @@
 # Site Settings
 # Name of theme
 theme = "meme"
-baseURL = "raoulaime.github.io"
+baseURL = "/"
 title = "Raoul's blog"
 languageCode = "en"
 hasCJKLanguage = false
