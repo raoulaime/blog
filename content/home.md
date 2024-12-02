@@ -35,5 +35,5 @@ Check out some of my recent work:
 Feel free to reach out or follow me:
 
 - **Email**: raoulaimek@gmail.com
-- **LinkedIn**: linkedin.com/in/raoulaime
-- **GitHub**: github.com/raoulaime
+- **LinkedIn**: https://www.linkedin.com/in/raoulaime
+- **GitHub**: https://www.github.com/raoulaime
