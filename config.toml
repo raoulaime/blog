@@ -1529,16 +1529,16 @@ uglyURLs = false
     # Author’s information
     [params.author]
         # Name
-        name = "reuixiy"
+        name = "Raoul-Aime Kengne"
         # Email
-        email = "reuixiy@gmail.com"
+        email = "raoulaimek@gmail.com"
         # Motto or introduction
-        motto = "Viva La Vida"
+        motto = "Your best teacher is your last mistake"
         # Avatar
         avatar = "/icons/apple-touch-icon.png"
         # Personal website, default: baseURL
         website = "https://io-oi.me/"
         # Twitter
-        twitter = "reuixiy"
+        twitter = "raoulaime"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        # fediverse = "@reuixiy@bird.makeup"
