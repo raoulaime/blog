@@ -1,6 +1,7 @@
 ##########################################
 # Site Settings
-
+# Name of theme
+theme = "meme"
 baseURL = "raoulaime.github.io"
 title = "Raoul's blog"
 languageCode = "en"
@@ -24,9 +25,6 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
     website = "https://www.kenitrahub.com/"
     # Twitter
     twitter = "raoulaime"
-
-# Name of theme
-theme = "meme"
 
 # `hugo new` automatically opened text editor
 newContentEditor = ""
@@ -1316,30 +1314,20 @@ uglyURLs = false
     # Back to Top
 
     enableBackToTop = true
-
     enableBackToTopAutoHide = true
-
     displayBackToTopInHome = true
-
     displayBackToTopOnMobile = false
-
     backToTopIcon = "arrow-up"
-
 
     ######################################
     # Footer
 
     enableFooter = true
-
     displayFooter = true
-
     displayFooterInHome = true
-
     displayCopyleftSymbol = false
     displayCopyrightSymbol = true
-
     displaySiteCreatedYear = true
-
     # Leave it empty("") if you don’t want
     # the icon
     iconBetweenYearAndAuthor = "heart"
