@@ -1,5 +1,5 @@
 ---
-title: About me
+title: Senior Consultant, Cloud and Automation Architect
 date: 2024-12-01
 categories:
   - Résumé
@@ -11,73 +11,103 @@ tags:
   - Architect
   - Consultant
 ---
+---
 
-# **Raoul-Aimé** Kengne 
-**Technology Architect & Automation Architect (IaC)**  
-**Location:** Quebec, Canada  
-**Experience:** ~15 years  
+# Welcome to My Professional Blog
+
+I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 15 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
 
 ---
 
-## **Professional Summary**  
-Experienced Technology Architect with expertise in infrastructure, automation, and cloud solutions. Skilled in Ansible, Azure, AWS, and multi-cloud environments. Dedicated to delivering efficient, scalable, and reliable IT solutions for organizations across various industries. Known for an empathetic approach and effective collaboration, even in challenging circumstances.
+## 🚀 Expertise and Services
+
+I specialize in designing, deploying, and automating IT solutions to meet complex business challenges. My key areas of expertise include:
+
+- **Cloud Architecture**: AWS, Microsoft Azure, and hybrid solutions.
+- **Infrastructure Automation**: Proficient in Ansible, Terraform, and Packer.
+- **Hybrid Cloud Migrations**: Seamless transitions to modern infrastructures.
+- **Technical Governance**: Risk assessment and impact analysis.
+- **DevOps & CI/CD**: Automation and operational excellence.
+
+Let’s discuss how I can assist your organization in achieving its goals. **[Contact Me](#connect-with-me)**.
 
 ---
 
-## **Key Skills**
-- **Infrastructure as Code (IaC):** Proficient in Ansible, Terraform, and cloud automation.
-- **Cloud Solutions:** Expertise in Azure, AWS, and hybrid cloud architectures.
-- **Operating Systems:** Deep knowledge of Linux (RHEL, Ubuntu) and Windows Server ecosystems.
-- **System Design:** Skilled in designing scalable, secure, and fault-tolerant architectures.
-- **Scripting & Automation:** Strong experience in Bash, PowerShell, and Python.
-- **Collaboration & Leadership:** Effective in leading teams and fostering partnerships.
-- **Certifications:**
-  - AWS Solutions Architect Professional
-  - Azure Solutions Architect Expert
+## 🌟 Career Highlights
+
+- Led the automation of **1,600+ servers** using Ansible Automation Platform.
+- Migrated critical workloads to **Microsoft Azure** for Quebec’s Ministry of Education.
+- Designed and integrated **cloud landing zones** for AWS and Azure environments.
+- Developed and optimized **hybrid cloud infrastructures** for Société Générale.
+
+Explore more in my **[Portfolio](#portfolio)**.
 
 ---
 
-## **Professional Experience**
+## 📂 Portfolio
 
-### **Technology Architect & Consultant**  
-**Major IT Company, Quebec**  
-*2008 - Present*  
+Here’s a snapshot of some of my most impactful projects:
 
-- Designed and implemented multi-cloud architectures for enterprise clients, focusing on scalability and cost efficiency.  
-- Led automation initiatives, including creating custom Ansible modules and roles for complex environments.  
-- Managed critical projects integrating Azure AD, Windows Server, and Red Hat Ansible Automation Platform.  
-- Delivered training sessions on automation and infrastructure design to client teams.  
+- **Retraite Québec**: Implemented an Ansible-based automation platform integrated with Azure DevOps.
+- **Société Générale**: Designed and optimized hybrid cloud solutions for 18 African subsidiaries.
+- **Ministry of Education (Quebec)**: Migrated workloads to Azure and automated deployments with Terraform.
 
----
-
-## **Education**  
-**Bachelor of Engineering in Computer Science**  
-*Université Laval, Quebec*  
+Read detailed case studies on the **[Projects page](#)**.
 
 ---
 
-## **Certifications**  
-- **AWS Solutions Architect Professional**  
-- **Azure Solutions Architect Expert**  
-- **ITIL Foundation Certification**
+## 🎓 Education and Certifications
+
+### Education
+- **Master's in Networks, Telecoms, and Systems** – University of Dschang, Cameroon
+- **Bachelor's in Network and Telecom Engineering** – IUT-FV, Bandjoun, Cameroon
+
+### Certifications
+- **AWS Certified Solutions Architect – Professional**
+- **Microsoft Certified: Azure Solution Architect Expert**
+- **Red Hat Certified Engineer (RHCE)**
+- **HashiCorp Certified: Terraform Associate**
+- **TOGAF 9 Certified**  
+  *(Full certification list available on **[Credly](https://www.credly.com/users/raoulaime)**)*
 
 ---
 
-## **Notable Projects**  
-- **Ansible Automation Platform Integration:**  
-  Designed and deployed Ansible Automation Platform in Azure Red Hat OpenShift, integrating SAML for secure authentication.  
+## 📊 Technology Stack
 
-- **Cloud-Native Infrastructure Setup:**  
-  Built and optimized Terraform modules for Linux and Windows VM deployment in Azure with custom templates and automation.
+I work with a wide range of technologies, including:
 
-- **Patch Management Reporting System:**  
-  Developed an Ansible role to generate HTML reports summarizing patch status across Linux and Windows environments.
-
----
-
-## **Personal Goals**  
-Aspiring to specialize further in IaC and explore opportunities in independent consulting to support businesses in Quebec and across Canada.
+- **Cloud**: AWS, Azure, OpenStack
+- **Automation**: Ansible, Terraform, Packer
+- **Programming**: Python, Bash, PowerShell
+- **Systems**: Red Hat Enterprise Linux, Windows Server
+- **DevOps Tools**: Azure DevOps, Jenkins, GitHub Actions
 
 ---
 
-For more details or collaboration opportunities, feel free to reach out via the contact form on this blog.
+## 🌍 Community and Publications
+
+I believe in sharing knowledge and contributing to the tech community:
+
+- Regular speaker at **cloud and automation events**.
+- Active member of **Internet Society – Cameroon & Quebec Chapters**.
+- Contributor to open-source projects in automation.
+
+Check out my **[Blog](#blog)** for insights on cloud computing, IaC, and IT strategy.
+
+---
+
+## 📧 Connect With Me
+
+Let’s collaborate! Reach out or follow me for updates:
+
+- **Email**: [aimeraoul@live.com](mailto:aimeraoul@live.com)
+- **LinkedIn**: [linkedin.com/in/raoulaime](https://linkedin.com/in/raoulaime)
+- **GitHub**: [github.com/raoulaime](https://github.com/raoulaime)
+
+---
+
+## 📰 Latest Blog Posts
+
+
+
+Thank you for visiting my site! Feel free to explore and reach out anytime.
