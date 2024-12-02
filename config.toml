@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "/"
+baseURL = "raoulaime.github.io"
 title = "Raoul's blog"
 languageCode = "en"
 hasCJKLanguage = false
@@ -17,7 +17,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
     # Email
     email = "contact@kenitrahub.com"
     # Motto or introduction
-    motto = "🚀 Créateur de contenu, de formations et de solutions pour le web."
+    motto = "🚀 Créateur de contenu, Consultant TI."
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
