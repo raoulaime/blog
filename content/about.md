@@ -11,7 +11,7 @@ tags:
   - Architect
   - Consultant
 ---
---- 
+
 # Welcome to My Professional Blog
 
 I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 14 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
