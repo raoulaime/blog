@@ -77,10 +77,10 @@ I believe in giving back to the community:
 
 Let's stay connected! Here’s how you can reach me:
 
-- **Email**:  [Contact me](raoulaimek@gmail.com)
-- **LinkedIn**: [LinkedIn ](https://www.linkedin.com/in/raoulaime)
-- **GitHub**: [GitHub Profile](github.com/raoulaime)
-- **Twitter**: [@Twitter](twitter.com/raoulaime)
+- **Email**:  mailto:raoulaimek@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/raoulaime
+- **GitHub**: github.com/raoulaime
+- **Twitter**: twitter.com/raoulaime
 
 ---
 
