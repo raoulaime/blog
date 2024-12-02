@@ -111,4 +111,4 @@ The Red Hat Ansible Automation Platform is a powerful tool for managing IT opera
 
 ---
 
-> Written by **Your Name**
+> Written by Raoul-Aimé Kengne

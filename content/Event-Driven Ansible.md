@@ -87,4 +87,4 @@ Event-Driven Ansible brings agility and scalability to automation workflows. Whe
 
 ---
 
-> Written by **Your Name**
+> Written by Raoul-Aimé Kengne
