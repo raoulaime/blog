@@ -10,7 +10,7 @@ tags:
   - Infrastructure
   - Automation
   - Scalable
-draft: true
+draft: false
 ---
 
 ---

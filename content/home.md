@@ -1,7 +1,7 @@
 ---
 title: Welcome to My Site
 date: 2024-12-01
-draft: true
+draft: false
 description: Explore insights, projects, and more.
 type: homepage
 ---
