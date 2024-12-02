@@ -5,10 +5,7 @@ draft: false
 description: Explore insights, projects, and more.
 type: homepage
 ---
----
 Hi there! 👋 I'm thrilled to have you here. This site is a space where I share my work, ideas, and passions. Whether you're interested in tech, automation, or personal growth, there's something here for you.
-
----
 
 ## 📰 Latest Blog Posts
 

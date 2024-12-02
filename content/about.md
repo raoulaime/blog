@@ -10,6 +10,8 @@ tags:
   - Automation
   - Architect
   - Consultant
+cssclasses:
+  -
 ---
 
 # Welcome to My Professional Blog
