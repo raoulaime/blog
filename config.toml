@@ -211,7 +211,7 @@ uglyURLs = false
 [menu]
     ## Menu bar
     [[menu.main]]
-         pageref = "/"
+         pageref = "/Home"
          name = "Home"
          weight = 1
          pre = "internal"

@@ -34,6 +34,6 @@ Check out some of my recent work:
 
 Feel free to reach out or follow me:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](#)
-- **GitHub**: [Your GitHub Profile](#)
+- **Email**: raoulaimek@gmail.com
+- **LinkedIn**: linkedin.com/in/raoulaime
+- **GitHub**: github.com/raoulaime
