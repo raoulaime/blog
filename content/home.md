@@ -6,13 +6,6 @@ description: "Explore insights, projects, and more."
 type: "homepage"
 ---
 ---
-title: "Welcome to My Personal Website"
-date: 2024-12-01
-draft: false
-description: "Discover my blog, portfolio, and everything about my journey in technology and beyond."
-type: "homepage"
----
-
 # Welcome to My Website
 
 Hi there! 👋 I'm thrilled to have you here. This site is a space where I share my work, ideas, and passions. Whether you're interested in tech, automation, or personal growth, there's something here for you.
