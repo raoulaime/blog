@@ -11,11 +11,10 @@ tags:
   - Architect
   - Consultant
 ---
----
-
+--- 
 # Welcome to My Professional Blog
 
-I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 15 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
+I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 14 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
 
 ---
 
@@ -23,11 +22,14 @@ I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automati
 
 I specialize in designing, deploying, and automating IT solutions to meet complex business challenges. My key areas of expertise include:
 
-- **Cloud Architecture**: AWS, Microsoft Azure, and hybrid solutions.
-- **Infrastructure Automation**: Proficient in Ansible, Terraform, and Packer.
-- **Hybrid Cloud Migrations**: Seamless transitions to modern infrastructures.
-- **Technical Governance**: Risk assessment and impact analysis.
-- **DevOps & CI/CD**: Automation and operational excellence.
+- **Cloud Architecture**: Designing secure, scalable environments on Azure, AWS, and hybrid cloud setups.
+- **Automation Frameworks**: Proficient in Red Hat Ansible Automation Platform, Terraform, and Packer to streamline IT operations.
+- **Container Orchestration**: Deploying and managing containerized applications using OpenShift and Kubernetes.
+- **Hybrid Cloud Migrations**: Seamless transitions to modern infrastructures, integrating on-premises and cloud environments.
+- **DevOps Implementation**: Streamlining software development and delivery pipelines using CI/CD best practices.
+- **Enterprise IT Governance**: Establishing technical standards and ensuring compliance with security frameworks.
+- **Custom Infrastructure Solutions**: Building tailored environments to support enterprise workloads and improve operational efficiency.
+- **Security and RBAC Integration**: Implementing robust access controls, cloud-native security tools, and policies to protect critical systems.
 
 Let’s discuss how I can assist your organization in achieving its goals. **[Contact Me](#connect-with-me)**.
 
@@ -35,24 +37,16 @@ Let’s discuss how I can assist your organization in achieving its goals. **[Co
 
 ## 🌟 Career Highlights
 
-- Led the automation of **1,600+ servers** using Ansible Automation Platform.
-- Migrated critical workloads to **Microsoft Azure** for Quebec’s Ministry of Education.
-- Designed and integrated **cloud landing zones** for AWS and Azure environments.
-- Developed and optimized **hybrid cloud infrastructures** for Société Générale.
-
-Explore more in my **[Portfolio](#portfolio)**.
-
----
-
-## 📂 Portfolio
-
-Here’s a snapshot of some of my most impactful projects:
-
-- **Retraite Québec**: Implemented an Ansible-based automation platform integrated with Azure DevOps.
-- **Société Générale**: Designed and optimized hybrid cloud solutions for 18 African subsidiaries.
-- **Ministry of Education (Quebec)**: Migrated workloads to Azure and automated deployments with Terraform.
-
-Read detailed case studies on the **[Projects page](#)**.
+- Designed and implemented scalable hybrid cloud infrastructures supporting thousands of users and multiple data centers.
+- Automated the provisioning and configuration of servers (1,600+ systems) using Ansible Automation Platform, enhancing deployment speed and reliability.
+- Migrated mission-critical workloads to public and hybrid cloud environments, ensuring operational continuity and enhanced performance.
+- Developed Infrastructure as Code (IaC) solutions with Terraform and Azure Bicep, reducing manual errors and accelerating infrastructure delivery.
+- Integrated advanced security measures, including RBAC and cloud-native security tools, to safeguard sensitive systems and data.
+- Established governance frameworks and architectural guidelines to standardize IT practices across diverse operational environments.
+- Conducted proofs of concept (POC) for innovative solutions, such as container platforms, automation frameworks, and cloud-native tools.
+- Led cross-functional teams in implementing DevOps practices, streamlining software delivery pipelines, and improving collaboration.
+- Provided expert-level support for high-severity incidents, including root cause analysis and recovery planning.
+- Delivered technical training and mentoring, upskilling teams in cloud technologies, automation, and IT best practices.
 
 ---
 
@@ -67,8 +61,10 @@ Read detailed case studies on the **[Projects page](#)**.
 - **Microsoft Certified: Azure Solution Architect Expert**
 - **Red Hat Certified Engineer (RHCE)**
 - **HashiCorp Certified: Terraform Associate**
-- **TOGAF 9 Certified**  
-  *(Full certification list available on **[Credly](https://www.credly.com/users/raoulaime)**)*
+- **TOGAF 9 Certified**
+- **ITIL® 4 Foundation**
+
+*(Full certification list available on **[Credly](https://www.credly.com/users/raoulaime)**)*
 
 ---
 
@@ -76,11 +72,36 @@ Read detailed case studies on the **[Projects page](#)**.
 
 I work with a wide range of technologies, including:
 
-- **Cloud**: AWS, Azure, OpenStack
-- **Automation**: Ansible, Terraform, Packer
-- **Programming**: Python, Bash, PowerShell
-- **Systems**: Red Hat Enterprise Linux, Windows Server
-- **DevOps Tools**: Azure DevOps, Jenkins, GitHub Actions
+- **Cloud Platforms**:
+  - Azure: Virtual Machines, Azure AD, Azure DevOps, Azure Bicep.
+  - AWS: EC2, S3, IAM, and advanced networking.
+  - OpenShift: Deployment and scaling of containerized applications.
+  - Hybrid Cloud Integrations: Combining on-premises and cloud services.
+
+- **Automation Tools**:
+  - Red Hat Ansible Automation Platform: Playbooks, roles, AWX, RBAC.
+  - Terraform: IaC for cloud resource management.
+  - Packer: Building and managing custom VM images.
+
+- **Containerization and Orchestration**:
+  - Kubernetes: Managing containerized applications.
+  - OpenShift: Advanced orchestration and multi-cloud container management.
+
+- **Programming and Scripting**:
+  - Python, Bash, PowerShell: Automation and custom solutions.
+  - YAML: Configuration management for cloud and containerized environments.
+
+- **Systems and OS**:
+  - Linux: Red Hat Enterprise Linux (RHEL), CentOS.
+  - Windows Server: 2012, 2016, 2019, 2022.
+
+- **DevOps Tools**:
+  - CI/CD Pipelines: Azure DevOps, Jenkins, GitHub Actions.
+  - Monitoring and Logging: Prometheus, Grafana, ELK Stack.
+
+- **Security and Compliance**:
+  - RBAC: Role-based access control across cloud and on-premises systems.
+  - Cloud-Native Security: Azure Security Center, AWS Security Hub.
 
 ---
 
@@ -89,7 +110,7 @@ I work with a wide range of technologies, including:
 I believe in sharing knowledge and contributing to the tech community:
 
 - Regular speaker at **cloud and automation events**.
-- Active member of **Internet Society – Cameroon & Quebec Chapters**.
+- Active member of **Internet Society – Cameroon Chapters**.
 - Contributor to open-source projects in automation.
 
 Check out my **[Blog](#blog)** for insights on cloud computing, IaC, and IT strategy.
@@ -107,7 +128,6 @@ Let’s collaborate! Reach out or follow me for updates:
 ---
 
 ## 📰 Latest Blog Posts
-
 
 
 Thank you for visiting my site! Feel free to explore and reach out anytime.
