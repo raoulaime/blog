@@ -1,5 +1,5 @@
 ---
-title: Raoul-Aimé - Résumé
+title: About me
 date: 2024-12-01
 categories:
   - Résumé
@@ -12,7 +12,7 @@ tags:
   - Consultant
 ---
 
-# **Raoul-Aimé**  
+# **Raoul-Aimé** Kengne 
 **Technology Architect & Automation Architect (IaC)**  
 **Location:** Quebec, Canada  
 **Experience:** ~15 years  
