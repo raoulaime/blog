@@ -1525,7 +1525,7 @@ uglyURLs = false
         # Avatar
         avatar = "/icons/apple-touch-icon.png"
         # Personal website, default: baseURL
-        website = "https://io-oi.me/"
+        website = "https://raoulaime.github.io"
         # Twitter
         twitter = "raoulaime"
         # Fediverse
