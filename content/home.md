@@ -77,7 +77,7 @@ I believe in giving back to the community:
 
 Let's stay connected! Here’s how you can reach me:
 
-- **Email**:  mailto:raoulaimek@gmail.com
+- **Email**:  aimeraoul@live.com
 - **LinkedIn**: https://www.linkedin.com/in/raoulaime
 - **GitHub**: github.com/raoulaime
 - **Twitter**: twitter.com/raoulaime
