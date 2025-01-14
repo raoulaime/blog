@@ -122,8 +122,6 @@ Check out my **[Blog](#blog)** for insights on cloud computing, IaC, and IT stra
 ## 📧 Connect With Me
 
 Let’s collaborate! Reach out or follow me for updates:
-
-- **Email**: [aimeraoul@live.com](mailto:aimeraoul@live.com)
 - **LinkedIn**: [linkedin.com/in/raoulaime](https://linkedin.com/in/raoulaime)
 - **GitHub**: [github.com/raoulaime](https://github.com/raoulaime)
 
