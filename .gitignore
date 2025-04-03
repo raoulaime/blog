@@ -1,0 +1,5 @@
+# ---> Ansible
+*.retry
+.ansible
+blogpost.sh
+images.py
