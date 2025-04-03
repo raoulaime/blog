@@ -21,9 +21,9 @@ Stay updated with my latest articles:
 
 Here are some of the exciting projects I've worked on:
 
-- **[Project Alpha](#)**: A groundbreaking solution for automating workflows.
-- **[Project Beta](#)**: A cloud-based application for real-time data analysis.
-- **[Project Gamma](#)**: An open-source tool to streamline development.
+- **[Project A](#)**: A groundbreaking solution for automating workflows.
+- **[Project B](#)**: A cloud-based application for real-time data analysis.
+- **[Project C](#)**: An open-source tool to streamline development.
 
 Explore more on the **[Projects page](#)**.
 

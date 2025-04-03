@@ -16,7 +16,7 @@ cssclasses:
 
 # Welcome to My Professional Blog
 
-I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 14 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
+I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 15 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
 
 ---
 
@@ -39,7 +39,7 @@ Let’s discuss how I can assist your organization in achieving its goals. **[Co
 
 ## 🌟 Career Highlights
 
-- Designed and implemented scalable hybrid cloud infrastructures supporting thousands of users and multiple data centers.
+- Designed and implemented scalable hybrid cloud infrastructures supporting thousands of users and multiple datacenters.
 - Automated the provisioning and configuration of servers (1,600+ systems) using Ansible Automation Platform, enhancing deployment speed and reliability.
 - Migrated mission-critical workloads to public and hybrid cloud environments, ensuring operational continuity and enhanced performance.
 - Developed Infrastructure as Code (IaC) solutions with Terraform and Azure Bicep, reducing manual errors and accelerating infrastructure delivery.
