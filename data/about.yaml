@@ -37,7 +37,7 @@ highlights:
   - org: Engineering
     text: Moved Azure Bicep code to Terraform, and Ansible configurations to Helm charts, to make deployments easier to maintain.
   - org: Banking
-    text: Moved operations covering more than 20,000 servers from legacy scripts to Infrastructure as Code with Ansible, Terraform and Python.
+    text: Moved banking operations from legacy scripts to Infrastructure as Code with Ansible, Terraform and Python.
   - org: Banking
     text: Led L3 major-incident resolution and DRP/BCP implementation at a pan-African banking technology hub.
 lab:

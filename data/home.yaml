@@ -5,7 +5,7 @@ location: Quebec City, Canada
 stats:
   - {value: "16+", label: "Years in IT"}
   - {value: "1,800", label: "Servers automated on one platform"}
-  - {value: "20,000+", label: "Servers operated in banking"}
+  - {value: "3", label: "Countries worked in: Cameroon, Morocco, Canada"}
 expertise:
   - title: Cloud & migration
     text: Landing zones, hybrid and multi-cloud design, large-scale lift-and-shift to AWS and Azure.
@@ -25,4 +25,4 @@ work:
     text: Moved IaaS, PaaS and SaaS workloads to Azure, with infrastructure deployed by Terraform and Azure DevOps.
   - title: From scripts to Infrastructure as Code
     org: Banking
-    text: Moved banking operations across 20,000+ servers from legacy scripting to Ansible, Terraform and Python.
+    text: Moved banking operations from legacy scripting to Ansible, Terraform and Python.
