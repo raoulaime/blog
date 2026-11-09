@@ -1,0 +1,50 @@
+lead: I live in Quebec City and I've spent the last 16 years building and running infrastructure for banks, government and telecoms, first in Cameroon and Morocco, now in Canada.
+story:
+  - What I enjoy most is taking something that works only because one person remembers how, and turning it into something a whole team can rebuild from Git. Most of that work is on Red Hat platforms (OpenShift, Ansible Automation Platform, RHEL), AWS and Azure, and on clusters we build on-premises with VMware or KVM.
+  - I'm a technical lead on Red Hat OpenShift (ROSA, ARO), the subject-matter expert and escalation point for highly secured enterprise environments. I design and review AWS and Azure architectures with reliability, scalability and cost in mind.
+facts:
+  - {label: "Based in", value: "Quebec City, Canada"}
+  - {label: "Experience", value: "16+ years"}
+  - {label: "Worked in", value: "Cameroon · Morocco · Canada"}
+  - {label: "Focus", value: "OpenShift · Ansible · AWS · Azure"}
+principles:
+  - title: Everything in Git
+    text: If a platform can't be rebuilt from a repository on a bad day, it isn't finished. Configuration, pipelines and documentation all live in version control.
+  - title: Try it before recommending it
+    text: I run a home lab where I test designs on real hardware first, so what I propose to a client has already been rebuilt and broken at least once.
+  - title: Write down the why
+    text: A runbook says what to type. I also record why a choice was made, so the next person can change it safely.
+skills:
+  - title: Cloud and migration
+    items: [Landing zones, Hybrid and multi-cloud, AWS, Azure, Lift-and-shift migrations]
+  - title: Platform engineering
+    items: [OpenShift, ROSA, ARO, Kubernetes, AKS, EKS, Argo CD, CI/CD]
+  - title: Automation and IaC
+    items: [Ansible Automation Platform, AWX, Terraform, Helm, Azure DevOps, GitHub Actions, Python]
+  - title: Architecture and governance
+    items: [Enterprise architecture, Integration, Impact analysis, IT governance, Technology risk]
+  - title: Observability
+    items: [Prometheus, Grafana, Azure Monitor, AWS CloudWatch]
+  - title: Systems
+    items: [RHEL, IBM AIX, Windows Server, VMware, Cisco, Oracle, Informix, SQL Server]
+highlights:
+  - org: Public sector
+    text: Architected an Ansible automation platform on two Azure Red Hat OpenShift clusters (AWX/AAP, Quay, Entra ID SSO) that provisions and configures roughly 1,800 servers.
+  - org: Managed services
+    text: Operated the AWS Cloud Migration Factory and designed the network connectivity for a multi-account lift-and-shift to AWS.
+  - org: Public sector
+    text: Migrated workloads to Azure for a provincial ministry and built the landing zone with Terraform and Azure DevOps.
+  - org: Engineering
+    text: Moved Azure Bicep code to Terraform, and Ansible configurations to Helm charts, to make deployments easier to maintain.
+  - org: Banking
+    text: Moved operations covering more than 20,000 servers from legacy scripts to Infrastructure as Code with Ansible, Terraform and Python.
+  - org: Banking
+    text: Led L3 major-incident resolution and DRP/BCP implementation at a pan-African banking technology hub.
+lab:
+  text: At home I run a small lab where I try things before I recommend them to anyone. It is built like a client environment, with everything described as code.
+  items: [OpenShift on KVM, Ansible Automation Platform, GitOps with Argo CD, Ceph storage, HashiCorp Vault, Keycloak SSO, Prometheus and Grafana, NetBox]
+education:
+  - title: Master's in Networks, Telecoms and Systems
+    school: University of Dschang, Cameroon
+  - title: Bachelor's in Network and Telecom Engineering
+    school: IUT-FV, Bandjoun, Cameroon

@@ -101,3 +101,21 @@ pre code{background:none;padding:0;color:inherit}
  .prose td:first-child{font-weight:600}
  .prose td:last-child:not(:first-child){color:var(--muted);font-size:.9rem}
 }
+
+.about-hero{padding:72px 0 44px}
+.about-hero h1{max-width:none}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding-top:28px;padding-bottom:4px}
+.facts div{display:flex;flex-direction:column;border-left:2px solid var(--accent);padding-left:14px}
+.facts span{color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.facts strong{font-size:1rem;line-height:1.35}
+.narrow p{color:var(--text);max-width:740px}
+.skills{display:grid;gap:14px}
+.skill{display:grid;grid-template-columns:210px 1fr;gap:16px;align-items:baseline;border-top:1px solid var(--line);padding-top:14px}
+.skill h3{font-size:1rem;margin:0}
+.skill p{margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.tag{display:inline-block;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:.86rem}
+.lab p{margin:0 0 14px;color:var(--text)}
+.lab p:last-child{margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.about-cta p{color:var(--muted);max-width:60ch}
+.about-cta .cta{margin-top:18px}
+@media(max-width:760px){.facts{grid-template-columns:repeat(2,1fr)}.skill{grid-template-columns:1fr;gap:8px}.about-hero{padding:48px 0 32px}}

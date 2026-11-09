@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $d := .Site.Data.about }}
+<section class="hero about-hero">
+  <div class="wrap">
+    <p class="eyebrow">About</p>
+    <h1>Hi, I'm Raoul-Aimé Kengne.</h1>
+    <p class="lead">{{ $d.lead }}</p>
+  </div>
+</section>
+
+<section class="wrap facts" aria-label="At a glance">
+  {{ range $d.facts }}<div><span>{{ .label }}</span><strong>{{ .value }}</strong></div>{{ end }}
+</section>
+
+<section class="wrap block narrow">
+  <h2>My story</h2>
+  {{ range $d.story }}<p>{{ . }}</p>{{ end }}
+</section>
+
+<section class="wrap block">
+  <h2>How I work</h2>
+  <div class="grid three">
+    {{ range $d.principles }}<article class="card"><h3>{{ .title }}</h3><p>{{ .text }}</p></article>{{ end }}
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>Skills</h2>
+  <div class="skills">
+    {{ range $d.skills }}<div class="skill"><h3>{{ .title }}</h3><p>{{ range .items }}<span class="tag">{{ . }}</span>{{ end }}</p></div>{{ end }}
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>Career highlights</h2>
+  <div class="grid two">
+    {{ range $d.highlights }}<article class="card"><p class="org">{{ .org }}</p><p>{{ .text }}</p></article>{{ end }}
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>In the home lab</h2>
+  <div class="card lab">
+    <p>{{ $d.lab.text }}</p>
+    <p>{{ range $d.lab.items }}<span class="tag">{{ . }}</span>{{ end }}</p>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>Education</h2>
+  <div class="grid two">
+    {{ range $d.education }}<article class="card"><h3>{{ .title }}</h3><p>{{ .school }}</p></article>{{ end }}
+  </div>
+</section>
+
+<section class="wrap block about-cta">
+  <h2>Let's talk</h2>
+  <p>Happy to talk about cloud architecture, OpenShift, Ansible Automation Platform, Terraform and migrations.</p>
+  <p class="cta">
+    <a class="btn primary" href="/contact/">Get in touch</a>
+    <a class="btn" href="https://www.linkedin.com/in/raoulaime">LinkedIn</a>
+    <a class="btn" href="https://github.com/raoulaime">GitHub</a>
+  </p>
+</section>
+{{ end }}
