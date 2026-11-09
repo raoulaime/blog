@@ -1,0 +1,9 @@
+<header class="site-header">
+  <div class="wrap bar">
+    <nav aria-label="Main" class="mainnav">
+      {{ $cur := . }}
+      {{ range .Site.Menus.main }}<a href="{{ .URL }}"{{ if or (and (eq .URL "/") $cur.IsHome) (and (ne .URL "/") (hasPrefix $cur.RelPermalink .URL)) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+      <button id="theme" type="button" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </div>
+</header>

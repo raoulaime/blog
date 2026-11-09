@@ -1,0 +1,11 @@
+<ul class="posts">
+{{ range . }}
+  <li>
+    <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <p>{{ .Description }}</p>
+    <div class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      {{ range .Params.categories }}<a class="chip" href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}
+      · {{ .ReadingTime }} min read</div>
+  </li>
+{{ end }}
+</ul>

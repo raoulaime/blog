@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="wrap prose">
+  <header class="page-head">
+    <h1>{{ if .Data.Singular }}{{ .Data.Singular | title }}: {{ end }}{{ .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+  {{ $pages := cond (ne .Data.Singular nil) .Pages (where .Site.RegularPages "Type" "blog") }}
+  {{ partial "postlist.html" $pages.ByDate.Reverse }}
+</section>
+{{ end }}

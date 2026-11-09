@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{- $title := cond .IsHome (printf "Home · %s" .Site.Title) (printf "%s · %s" .Title .Site.Title) }}
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  
+  <meta property="og:type" content="{{ cond (eq .Type "blog") "article" "website" }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" sizes="any" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <main id="main">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+  <script>
+    document.getElementById('theme').addEventListener('click',function(){
+      var d=document.documentElement,c=d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),n=c==='dark'?'light':'dark';
+      d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}
+    });
+  </script>
+  <script>
+    var tc=document.querySelector('details.toc');if(tc&&innerWidth<760)tc.removeAttribute('open');
+    document.querySelectorAll('.prose pre').forEach(function(pre){
+      var w=document.createElement('div');w.className='codewrap';
+      pre.parentNode.insertBefore(w,pre);w.appendChild(pre);
+      var b=document.createElement('button');b.type='button';b.className='copy';b.textContent='Copy';
+      b.setAttribute('aria-label','Copy code to clipboard');
+      b.addEventListener('click',function(){
+        var t=pre.innerText.replace(/\n$/,'');
+        var done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1800)};
+        if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(done,function(){b.textContent='Failed'})}
+        else{var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity=0;document.body.appendChild(a);a.select();try{document.execCommand('copy');done()}catch(e){b.textContent='Failed'}document.body.removeChild(a)}
+      });
+      w.appendChild(b);
+    });
+  </script>
+</body>
+</html>

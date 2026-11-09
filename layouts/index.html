@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ $d := .Site.Data.home }}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">{{ $d.role }}</p>
+    <h1>{{ $d.headline }}</h1>
+    <p class="lead">{{ $d.intro }}</p>
+    <p class="cta">
+      <a class="btn primary" href="/contact/">Get in touch</a>
+      <a class="btn" href="/about/">About me</a>
+    </p>
+  </div>
+</section>
+
+<section class="wrap stats" aria-label="Highlights">
+  {{ range $d.stats }}<div><strong>{{ .value }}</strong><span>{{ .label }}</span></div>{{ end }}
+</section>
+
+<section class="wrap block">
+  <h2>What I do</h2>
+  <div class="grid three">
+    {{ range $d.expertise }}<article class="card"><h3>{{ .title }}</h3><p>{{ .text }}</p></article>{{ end }}
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2>Projects</h2>
+  <div class="grid two">
+    {{ range $d.work }}<article class="card"><p class="org">{{ .org }}</p><h3>{{ .title }}</h3><p>{{ .text }}</p></article>{{ end }}
+  </div>
+</section>
+
+{{ end }}

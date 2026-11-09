@@ -1,133 +1,45 @@
 ---
-title: Senior Consultant, Cloud and Automation Architect
+title: About
 date: 2024-12-01
-categories:
-  - Résumé
-  - Professional
-tags:
-  - Technology
-  - Architect
-  - Automation
-  - Architect
-  - Consultant
-cssclasses:
-  -
+lastmod: 2026-11-08
+description: Senior consultant and cloud & infrastructure architect. 16+ years across public sector, banking and telecoms.
 ---
 
-# Welcome to My Professional Blog
+Hi, I'm **Raoul-Aimé Kengne**. I live in Quebec City and I've spent the last 16 years building and running infrastructure for banks, government and telecoms, first in Cameroon and Morocco, now in Canada.
 
-I’m **Raoul-Aimé Kengne**, a Senior Consultant, Cloud Architect, and Automation Specialist with over 15 years of experience in IT infrastructure, cloud solutions, and hybrid environments. I’ve successfully led projects in banking and telecommunications, blending deep technical expertise with a strategic mindset.
+What I enjoy most is taking something that works only because one person remembers how, and turning it into something a whole team can rebuild from Git. Most of that work is on Red Hat platforms (OpenShift, Ansible Automation Platform, RHEL), AWS and Azure, and on clusters we build on-premises with VMware or KVM.
 
----
+At home I run a small lab where I try things before I recommend them to anyone.
 
-## 🚀 Expertise and Services
+## What I do day to day
 
-I specialize in designing, deploying, and automating IT solutions to meet complex business challenges. My key areas of expertise include:
+I'm a technical lead on Red Hat OpenShift (ROSA, ARO), the subject-matter expert and escalation point for highly secured enterprise environments. I design and review AWS and Azure architectures with reliability, scalability and cost in mind.
 
-- **Cloud Architecture**: Designing secure, scalable environments on Azure, AWS, and hybrid cloud setups.
-- **Automation Frameworks**: Proficient in Red Hat Ansible Automation Platform, Terraform, and Packer to streamline IT operations.
-- **Container Orchestration**: Deploying and managing containerized applications using OpenShift and Kubernetes.
-- **Hybrid Cloud Migrations**: Seamless transitions to modern infrastructures, integrating on-premises and cloud environments.
-- **DevOps Implementation**: Streamlining software development and delivery pipelines using CI/CD best practices.
-- **Enterprise IT Governance**: Establishing technical standards and ensuring compliance with security frameworks.
-- **Custom Infrastructure Solutions**: Building tailored environments to support enterprise workloads and improve operational efficiency.
-- **Security and RBAC Integration**: Implementing robust access controls, cloud-native security tools, and policies to protect critical systems.
+## Areas of work
 
-Let’s discuss how I can assist your organization in achieving its goals. **[Contact Me](#connect-with-me)**.
+- **Cloud and migration**: landing zone design, hybrid and multi-cloud, large-scale lift-and-shift migrations to AWS and Azure.
+- **Platform engineering**: OpenShift in the cloud (ROSA, ARO) and on-premises on VMware and KVM, Kubernetes (AKS, EKS), GitOps with Argo CD, CI/CD pipeline design.
+- **Automation and IaC**: Ansible Automation Platform (AAP/AWX), Terraform, Helm, Azure DevOps, GitHub Actions, Python.
+- **Architecture and governance**: enterprise and technology architecture, integration, impact analysis, IT governance, technology risk.
+- **Observability**: Prometheus, Grafana, Azure Monitor, AWS CloudWatch.
+- **Systems**: RHEL, IBM AIX, Windows Server, VMware, Cisco, plus Oracle, Informix and SQL Server.
 
----
+## Career highlights
 
-## 🌟 Career Highlights
+- Architected an Ansible automation platform on two Azure Red Hat OpenShift clusters (AWX/AAP, Quay, Entra ID SSO) that provisions and configures roughly 1,800 servers.
+- Operated the AWS Cloud Migration Factory and designed the network connectivity for a multi-account lift-and-shift to AWS.
+- Migrated workloads to Azure for a provincial ministry and built the landing zone with Terraform and Azure DevOps.
+- Moved Azure Bicep code to Terraform, and Ansible configurations to Helm charts, to make deployments easier to maintain.
+- Moved banking operations covering more than 20,000 servers from legacy scripts to Infrastructure as Code with Ansible, Terraform and Python.
+- Led L3 major-incident resolution and DRP/BCP implementation at a pan-African banking technology hub.
 
-- Designed and implemented scalable hybrid cloud infrastructures supporting thousands of users and multiple datacenters.
-- Automated the provisioning and configuration of servers (1,600+ systems) using Ansible Automation Platform, enhancing deployment speed and reliability.
-- Migrated mission-critical workloads to public and hybrid cloud environments, ensuring operational continuity and enhanced performance.
-- Developed Infrastructure as Code (IaC) solutions with Terraform and Azure Bicep, reducing manual errors and accelerating infrastructure delivery.
-- Integrated advanced security measures, including RBAC and cloud-native security tools, to safeguard sensitive systems and data.
-- Established governance frameworks and architectural guidelines to standardize IT practices across diverse operational environments.
-- Conducted proofs of concept (POC) for innovative solutions, such as container platforms, automation frameworks, and cloud-native tools.
-- Led cross-functional teams in implementing DevOps practices, streamlining software delivery pipelines, and improving collaboration.
-- Provided expert-level support for high-severity incidents, including root cause analysis and recovery planning.
-- Delivered technical training and mentoring, upskilling teams in cloud technologies, automation, and IT best practices.
+## Education
 
----
+- **Master's in Networks, Telecoms and Systems**, University of Dschang, Cameroon
+- **Bachelor's in Network and Telecom Engineering**, IUT-FV, Bandjoun, Cameroon
 
-## 🎓 Education and Certifications
+## Elsewhere
 
-### Education
-- **Master's in Networks, Telecoms, and Systems** – University of Dschang, Cameroon
-- **Bachelor's in Network and Telecom Engineering** – IUT-FV, Bandjoun, Cameroon
-
-### Certifications
-- **AWS Certified Solutions Architect – Professional**
-- **Microsoft Certified: Azure Solution Architect Expert**
-- **Red Hat Certified Engineer (RHCE)**
-- **HashiCorp Certified: Terraform Associate**
-- **TOGAF 9 Certified**
-- **ITIL® 4 Foundation**
-
-*(Full certification list available on **[Credly](https://www.credly.com/users/raoulaime)**)*
-
----
-
-## 📊 Technology Stack
-
-I work with a wide range of technologies, including:
-
-- **Cloud Platforms**:
-  - Azure: Virtual Machines, Azure AD, Azure DevOps, Azure Bicep.
-  - AWS: EC2, S3, IAM, and advanced networking.
-  - OpenShift: Deployment and scaling of containerized applications.
-  - Hybrid Cloud Integrations: Combining on-premises and cloud services.
-
-- **Automation Tools**:
-  - Red Hat Ansible Automation Platform: Playbooks, roles, AWX, RBAC.
-  - Terraform: IaC for cloud resource management.
-  - Packer: Building and managing custom VM images.
-
-- **Containerization and Orchestration**:
-  - Kubernetes: Managing containerized applications.
-  - OpenShift: Advanced orchestration and multi-cloud container management.
-
-- **Programming and Scripting**:
-  - Python, Bash, PowerShell: Automation and custom solutions.
-  - YAML: Configuration management for cloud and containerized environments.
-
-- **Systems and OS**:
-  - Linux: Red Hat Enterprise Linux (RHEL), CentOS.
-  - Windows Server: 2012, 2016, 2019, 2022.
-
-- **DevOps Tools**:
-  - CI/CD Pipelines: Azure DevOps, Jenkins, GitHub Actions.
-  - Monitoring and Logging: Prometheus, Grafana, ELK Stack.
-
-- **Security and Compliance**:
-  - RBAC: Role-based access control across cloud and on-premises systems.
-  - Cloud-Native Security: Azure Security Center, AWS Security Hub.
-
----
-
-## 🌍 Community and Publications
-
-I believe in sharing knowledge and contributing to the tech community:
-
-- Regular speaker at **cloud and automation events**.
-- Active member of **Internet Society – Cameroon Chapters**.
-- Contributor to open-source projects in automation.
-
-Check out my **[Blog](#blog)** for insights on cloud computing, IaC, and IT strategy.
-
----
-
-## 📧 Connect With Me
-
-Let’s collaborate! Reach out or follow me for updates:
-- **LinkedIn**: [linkedin.com/in/raoulaime](https://linkedin.com/in/raoulaime)
-- **GitHub**: [github.com/raoulaime](https://github.com/raoulaime)
-
----
-
-## 📰 Latest Blog Posts
-
-
-Thank you for visiting my site! Feel free to explore and reach out anytime.
+- [LinkedIn](https://www.linkedin.com/in/raoulaime)
+- [GitHub](https://github.com/raoulaime)
+- [Contact](/contact/)

@@ -1,0 +1,28 @@
+role: Senior Consultant · Cloud & Infrastructure Architect
+headline: I build platforms that teams can rebuild from Git.
+intro: I've spent 16 years in the public sector, banking and telecoms. These days I spend most of my time on OpenShift and Ansible, on AWS and Azure, and on clusters we build on-premises with VMware or KVM. I like platforms that a team can rebuild from Git on a bad day.
+location: Quebec City, Canada
+stats:
+  - {value: "16+", label: "Years in IT"}
+  - {value: "1,800", label: "Servers automated on one platform"}
+  - {value: "20,000+", label: "Servers operated in banking"}
+expertise:
+  - title: Cloud & migration
+    text: Landing zones, hybrid and multi-cloud design, large-scale lift-and-shift to AWS and Azure.
+  - title: Platform engineering
+    text: OpenShift in the cloud (ROSA, ARO) and on-premises (VMware, KVM), GitOps with Argo CD, and CI/CD pipelines.
+  - title: Automation & IaC
+    text: Ansible Automation Platform, Terraform, Helm, Azure DevOps, GitHub Actions and Python.
+work:
+  - title: Automation platform on Azure Red Hat OpenShift
+    org: Public sector
+    text: Architected AWX / AAP on two ARO clusters with Entra ID SSO, automating about 1,800 servers.
+  - title: Multi-account migration to AWS
+    org: Managed services
+    text: Designed network connectivity and operated the AWS Cloud Migration Factory to run migration waves.
+  - title: Azure migration and landing zone
+    org: Public sector
+    text: Moved IaaS, PaaS and SaaS workloads to Azure, with infrastructure deployed by Terraform and Azure DevOps.
+  - title: From scripts to Infrastructure as Code
+    org: Banking
+    text: Moved banking operations across 20,000+ servers from legacy scripting to Ansible, Terraform and Python.

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="wrap prose">
+  <header class="page-head">
+    {{ if eq .Type "blog" }}<div class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time> · {{ .ReadingTime }} min read
+      {{ range .Params.categories }}<a class="chip" href="/categories/{{ . | urlize }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}{{ if not (eq $.Type "blog") }}<p class="lead">{{ . }}</p>{{ end }}{{ end }}
+  </header>
+  {{ if and (eq .Type "blog") (gt (len .TableOfContents) 80) }}<details class="toc" open><summary>On this page</summary>{{ .TableOfContents }}</details>{{ end }}
+  {{ .Content }}
+  {{ if eq .Type "blog" }}<p class="back"><a href="/blog/">← All posts</a></p>{{ end }}
+</article>
+{{ end }}
