@@ -1,5 +1,5 @@
 # ---> Ansible
 *.retry
 .ansible
-blogpost.sh
-images.py
+public/
+.hugo_build.lock
