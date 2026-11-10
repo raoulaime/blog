@@ -43,8 +43,3 @@ highlights:
 lab:
   text: At home I run a small lab where I try things before I recommend them to anyone. It is built like a client environment, with everything described as code.
   items: [OpenShift on KVM, Ansible Automation Platform, GitOps with Argo CD, Ceph storage, HashiCorp Vault, Keycloak SSO, Prometheus and Grafana, NetBox]
-education:
-  - title: Master's in Networks, Telecoms and Systems
-    school: University of Dschang, Cameroon
-  - title: Bachelor's in Network and Telecom Engineering
-    school: IUT-FV, Bandjoun, Cameroon
