@@ -1,7 +1,7 @@
 lead: I live in Quebec City and I've spent the last 16 years building and running infrastructure for banks, government and telecoms, first in Cameroon and Morocco, now in Canada.
 story:
-  - What I enjoy most is taking something that works only because one person remembers how, and turning it into something a whole team can rebuild from Git. Most of that work is on Red Hat platforms (OpenShift, Ansible Automation Platform, RHEL), AWS and Azure, and on clusters we build on-premises with VMware or KVM.
-  - I'm a technical lead on Red Hat OpenShift (ROSA, ARO), the subject-matter expert and escalation point for highly secured enterprise environments. I design and review AWS and Azure architectures with reliability, scalability and cost in mind.
+  - What I enjoy most is taking something that works only because one person remembers how, and turning it into something a whole team can rebuild from Git. Most of that work is on Red Hat platforms (OpenShift, Ansible Automation Platform, RHEL), AWS and Azure, and on clusters I build on premises with VMware or KVM.
+  - Day to day, I'm the technical lead on Red Hat OpenShift (ROSA, ARO) and the escalation point for highly secured environments. I also design and review AWS and Azure architectures, with reliability and cost in mind.
 facts:
   - {label: "Based in", value: "Quebec City, Canada"}
   - {label: "Experience", value: "16+ years"}
@@ -11,9 +11,9 @@ principles:
   - title: Everything in Git
     text: If a platform can't be rebuilt from a repository on a bad day, it isn't finished. Configuration, pipelines and documentation all live in version control.
   - title: Try it before recommending it
-    text: I run a home lab where I test designs on real hardware first, so what I propose to a client has already been rebuilt and broken at least once.
+    text: I run a home lab where I test designs on real hardware first, so what I propose has already been rebuilt, and broken, at least once.
   - title: Write down the why
-    text: A runbook says what to type. I also record why a choice was made, so the next person can change it safely.
+    text: A runbook says what to type. I also write down why we made a choice, so the next person can change it without fear.
 skills:
   - title: Cloud and migration
     items: [Landing zones, Hybrid and multi-cloud, AWS, Azure, Lift-and-shift migrations]
@@ -26,7 +26,7 @@ skills:
   - title: Observability
     items: [Prometheus, Grafana, Azure Monitor, AWS CloudWatch]
   - title: Systems
-    items: [RHEL, IBM AIX, Windows Server, VMware, Cisco, Oracle, Informix, SQL Server]
+    items: [RHEL, Windows Server, VMware, Cisco]
 highlights:
   - org: Public sector
     text: Architected an Ansible automation platform on two Azure Red Hat OpenShift clusters (AWX/AAP, Quay, Entra ID SSO) that provisions and configures roughly 1,800 servers.
@@ -37,9 +37,9 @@ highlights:
   - org: Engineering
     text: Moved Azure Bicep code to Terraform, and Ansible configurations to Helm charts, to make deployments easier to maintain.
   - org: Banking
-    text: Moved banking operations from legacy scripts to Infrastructure as Code with Ansible, Terraform and Python.
+    text: Moved banking operations from legacy scripts to infrastructure as code with Ansible, Terraform and Python.
   - org: Banking
-    text: Led L3 major-incident resolution and DRP/BCP implementation at a pan-African banking technology hub.
+    text: Handled level-3 major incidents and put disaster-recovery and continuity plans in place at a pan-African banking technology hub.
 lab:
-  text: At home I run a small lab where I try things before I recommend them to anyone. It is built like a client environment, with everything described as code.
+  text: At home I run a small lab where I try things before recommending them. It's set up like a client environment, with everything described as code.
   items: [OpenShift on KVM, Ansible Automation Platform, GitOps with Argo CD, Ceph storage, HashiCorp Vault, Keycloak SSO, Prometheus and Grafana, NetBox]

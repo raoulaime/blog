@@ -1,6 +1,6 @@
 role: Senior Consultant · Cloud & Infrastructure Architect
 headline: I build platforms that teams can rebuild from Git.
-intro: I've spent 16 years in the public sector, banking and telecoms. These days I spend most of my time on OpenShift and Ansible, on AWS and Azure, and on clusters we build on-premises with VMware or KVM. I like platforms that a team can rebuild from Git on a bad day.
+intro: I've spent 16 years in the public sector, banking and telecoms. These days I spend most of my time on OpenShift and Ansible, on AWS and Azure, and on clusters I build on premises with VMware or KVM. I like platforms a team can rebuild from Git on a bad day.
 location: Quebec City, Canada
 stats:
   - {value: "16+", label: "Years in IT"}
